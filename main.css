@@ -312,7 +312,7 @@
             header .containerBar {
                 display: block;
                 position: relative;
-                left:20px;
+                left:-5px;
             }
 
             #content .logoimg img {
