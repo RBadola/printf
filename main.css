@@ -295,51 +295,5 @@
         }
 
         /* responsive design */
-        @media(max-width:400px) {
-            body{
-                padding: 20px;
-            }
-            header {
-                display: flex;
-                width: 100%;
-                flex-direction: column;
-            }
-
-            header .visibl {
-                display: none;
-            }
-
-            header .containerBar {
-                display: block;
-                position: relative;
-                left:-5px;
-            }
-
-            #content .logoimg img {
-                width: 200px;
-                height: 100px;
-            }
-
-            header .nav ul {
-                flex-direction: column;
-            }
-
-            #courses .cards1 {
-                grid-template-areas: "card1"
-                    " card2"
-                    "card3 "
-                    " card4"
-                    "card5"
-                    " card6";
-                grid-gap: 15px;
-            }
-
-            footer .icoon {
-                border-bottom: 4px solid gray;
-                border-radius: 10px;
-            }
-
-            #about_page .cardCon {
-                flex-direction: column;
-            }
-        }
+       
+        
